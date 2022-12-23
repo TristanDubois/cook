@@ -1,0 +1,283 @@
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap");
+
+.App-link {
+  color: #61dafb;
+}
+
+.Global {
+  /* ROOT */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #232526, #414345, #232526);
+  background-image: url("https://wallpaper.dog/large/10721316.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: azure;
+}
+
+.cocktailsImg {
+  max-width: 180px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+a,
+h3 {
+  color: #e7e0e6;
+  text-shadow: 0.1rem 0.1rem 0.1rem #ca69b5, -0.2rem -0.2rem 0.1rem #d3c93d,
+    -0.2rem 0.2rem 0.1rem #ca69b5;
+  transition: text-shadow 0.3s;
+  font-weight: 100;
+  -webkit-filter: drop-shadow(3px 3px 1px #441f62);
+  -webkit-transform: skew(-5deg, -5deg);
+}
+
+a:hover,
+h3:hover {
+  color: #e7e0e6;
+  text-shadow: 0.2rem 0.2rem 0.2rem #3654b8, -0.2rem -0.2rem 0.2rem #d3c93d,
+    -0.2rem 0.2rem 0.2rem #3654b8;
+  transition: text-shadow 0.3s;
+}
+
+ul > li {
+  width: 30%;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+li img {
+  box-shadow: 0 0 1rem #ca69b5;
+  border-radius: 0.5rem;
+}
+
+.Cocktail li {
+  font-weight: bold;
+  text-shadow: -0.2rem -0.2rem 0.1rem #000000;
+  margin: 0.5rem;
+}
+
+p {
+  font-weight: bold;
+  text-shadow: -0.2rem -0.2rem 0.1rem #000000;
+  margin: 1rem;
+}
+
+button {
+  background: none;
+  margin: 1rem;
+  color: #e7e0e6;
+  font-weight: bold;
+  text-shadow: 0.2rem 0.2rem 0.2rem #973e84, -0.2rem -0.2rem 0.2rem #232526,
+    -0.2rem 0.2rem 0.2rem #973e84;
+  font-family: "Neonderthaw";
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:active {
+  text-shadow: 0 0 1rem black;
+}
+
+.search {
+  background-color: #e7e0e6;
+  border-radius: 1.25em;
+  box-shadow: 0 0 3rem #973e84;
+  height: 2rem;
+  width: 20%;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.search:hover {
+  box-shadow: 0 0 3rem #3654b8;
+  transition: box-shadow 0.3s;
+}
+
+.NewRecipe {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 0 0.5rem #973e84;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #232526;
+  color: rgb(224, 228, 228);
+  margin-bottom: 50px;
+  opacity: 0.9;
+}
+
+.NewRecipe > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .NewRecipe > div div {
+} */
+
+.NewRecipe div textarea {
+  width: 80%;
+  height: 5rem;
+}
+
+.NewRecipe input,
+.NewRecipe textarea {
+  margin: 0.5rem;
+  box-shadow: 0 0 0.5rem #973e84;
+  background-color: #3654b8;
+  color: azure;
+}
+
+.Cocktails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navigation a {
+  margin: 10px;
+}
+
+h1,
+h1 a {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+a {
+  font-size: 2.5rem;
+}
+
+h1,
+h2,
+h4,
+a {
+  /* font-family: "Mr Dafoe", cursive; */
+  font-family: "Neonderthaw";
+  -webkit-filter: drop-shadow(3px 3px 1px #441f62);
+  -webkit-transform: skew(-5deg, -5deg);
+}
+
+.Header {
+  width: 100%;
+  background-image: url("");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logotop {
+  opacity: 0.7;
+  transform: scale(0.8);
+}
+
+.Header img {
+  width: 20%;
+}
+
+.Cocktail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+  padding: 0 20px 20px 20px;
+  margin-top: 20px;
+}
+
+.Cocktail button {
+  margin: 10px;
+}
+
+.Formregister input {
+  margin: 0.5rem;
+  box-shadow: 0 0 0.5rem #973e84;
+  background-color: #3654b8;
+  color: azure;
+}
+
+.backOpac {
+  position: absolute;
+  background-color: #a9aaad;
+  box-shadow: 0 0 3rem #973e84;
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.imgByCocktails {
+  width: 30%;
+  height: 30%;
+  border-radius: 3rem;
+  box-shadow: 0 0 3rem #973e84;
+}
+
+.flexCocktail {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #973e84;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #3654b8;
+}
+
+.Cocktails ul {
+  min-width: 98vw;
+}
+
+.userRecette {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.userRecette div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
